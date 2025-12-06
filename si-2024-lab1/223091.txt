@@ -1,0 +1,47 @@
+git config --global user.name "Nikola Sarafimov"
+git config --global user.email "sarafimov.nikola12345@gmail.com"
+Овие два чекори се за идентификација на корисникот
+
+1. Профил на Github: nikolasarafimov
+2. master 
+3. SI_2024_lab1_223091
+4. mkdir SI_2024_lab1_223091 => креирање на локален репозиториум со mkdir, cd SI_2024_lab1_223091 => влегување во директориумот, git init => иницијализирање на Git во директориумот.
+5. git remote add origin https://github.com/nikolasarafimov/SI_2024_lab1_223091.git => поврзување на локалниот репозиториум со оддалечениот репозиториум.
+git remote -v => прегледување на списокот со оддалечени репозиториуми поврзани со локалниот репозиториум на Git заедно со нивните соодветни URL-адреси.
+6. nano README.md => креирање датотека
+   cat README.md => ја прикажува содржината на датотеката (Име и презиме, индекс)
+   git add README.md => исценирање на промените направени во датотеката со име README.md за да се вклучи во следното commit.
+   git commit -m "Initital commit" => правење commit со порака Initital commit
+7. Преземање и додавање на трите фајлови во локалниот репозиториум. Со git status проверка на состојбата на репозиториумот (дали се успешно додадени). 
+   git add . => исценирање на сите промени во тековниот директориум и неговите поддиректориуми за вклучување во следниот commit.
+   git commit -m "Add starter code" => правење commit со порака Add starter code
+8. git push --all origin => синхронизација на сите гранки со оддалечениот репозиториум
+9. git branch bug1
+   git branch bug2
+   Отворање на две гранки (кои се разгрануваат од master гранката)
+10. git checkout bug1 => префрлување на гранката bug1
+11. Поправање на грешката во методот filterOddLengthStrings локално и со git status проверка на изменетиот фајл.
+    git add SILab1_1.java => исценирање на промените направени во датотеката со име SILab1_1.java за вклучување во следниот commit
+    git add -a -m "Fix wrong condition in filterOddLengthStrings"
+12. git checkout bug2 => префрлање на гранката bug2
+13. Поправање на грешката во методот makeBigStringFrom локално и со git status проверка на изменетиот фајл.
+    git add SILab1_2.java => исценирање на промените направени во датотеката со име SILab1_1.java за вклучување во следниот commit
+    git add -a -m "а Fix wrong condition in makeBigStringFrom"
+14. git checkout bug1 => враќање на гранката bug1
+15. Додавање повик до статичкиот метод filterOddLengthStrings System.out.println(SILab1_1.filterOddLengthStrings (list)); локално и со git add SILab1Main.java исценирање на промените направени во датотеката со име SILab1Main.java за вклучување во следниот commit
+    git commit -m "Call method filterOddLengthStrings in main class" => правење commit со порака
+16. git checkout bug2 => враќање на гранката bug2
+17. Додавање повик до статичкиот метод makeBigStringFrom System.out.println(SILab1_2.makeBigStringFrom(list)); локално и со git add SILab1Main.java исценирање на промените направени во датотеката со име SILab1Main.java за вклучување во следниот commit
+    git commit -m "Call method makeBigStringFrom in main class" => правење commit со порака
+18. git push --all origin => синхронизација на сите гранки со оддалечениот репозиториум
+19. git checkout master => префрлање на гранката master
+20. git merge bug1 => спојување на гранката bug1 кон гранката master (нема конфликт, бидејќи има fast forward стратегија)
+21. git push --all origin => синхронизација на сите гранки со оддалечениот репозиториум
+22. git checkout bug2 => префрлување на гранката bug2
+23. git rebase master => правење rebase спрема гранката master (едниот системски повик остана во кодот, а другиот е избришан)
+24. git checkout master => префрлување на гранката master
+25. git merge bug2 => спојување на гранката bug2 кон гранката master (нема конфликт)
+26. git push --all origin => синхронизација на сите гранки со оддалечениот репозиториум
+27. git push --force origin bug2 => 
+28. git log > logs.txt => додавање на датотека logs.txt во која ги има сите досегашни git логови. Додавање на датотеката 223091.txt во локалниот репозиториум, потоа git add 223091.txt и logs.txt за додавање на датотеките и крајно правење commit со git commit -m "Final commit".
+29. git push --all origin => синхронизација на сите гранки со оддалечениот репозиториум

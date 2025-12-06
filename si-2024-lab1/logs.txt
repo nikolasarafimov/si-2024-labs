@@ -1,0 +1,35 @@
+commit bf68a6d8982c2eed2f1fdb4d3e9c32d05b6db6c1
+Author: Nikola Sarafimov <sarafimov.nikola12345@gmail.com>
+Date:   Sun Apr 14 18:40:23 2024 +0200
+
+    Call method makeBigStringFrom in main class
+
+commit e9cd9b00b1af4617a32a039a5485b4334927b1d6
+Author: Nikola Sarafimov <sarafimov.nikola12345@gmail.com>
+Date:   Sun Apr 14 18:33:34 2024 +0200
+
+    Fix wrong condition in makeBigStringFrom
+
+commit a4e4f47dcefd35233a8a66f214d050729cf84976
+Author: Nikola Sarafimov <sarafimov.nikola12345@gmail.com>
+Date:   Sun Apr 14 18:37:54 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit 2aa66b5ae2a4231abc84e6846f25ec411dcc75b5
+Author: Nikola Sarafimov <sarafimov.nikola12345@gmail.com>
+Date:   Sun Apr 14 18:29:43 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit e6bdf72e49a6e62af9ca85f5ee178e7f062a1e0c
+Author: Nikola Sarafimov <sarafimov.nikola12345@gmail.com>
+Date:   Sun Apr 14 11:26:11 2024 +0200
+
+    Add starter code
+
+commit 1da81d500ea05fb2169926cdfabf41054986fb23
+Author: Nikola Sarafimov <sarafimov.nikola12345@gmail.com>
+Date:   Sun Apr 14 11:22:39 2024 +0200
+
+    Initial commit
