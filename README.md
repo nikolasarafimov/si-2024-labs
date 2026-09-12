@@ -1,6 +1,6 @@
-# SI 2024 Labs
+# Software Engineering Labs
 
-This repository contains lab exercises for the **Software Engineering (SI)** course (2024).
+Laboratory exercises completed for the Software Engineering course at FCSE.
 
 ## Contents
 
